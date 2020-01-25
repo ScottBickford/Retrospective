@@ -15,6 +15,7 @@ The API is configured to run under SSL, if you choose to not run it under SSL, t
 If you use Visual Studio to run the API, and it's your first time running it under SSL, it will ask you to install a self signing certificate, which you must do.
 Basic logging is stored in memory as there is no db. This can be found in the Filters\LoggingFilter.cs class.
 Exceptions are also stored in memory, again as there is no db. This can be found in the ErrorHandlingMiddleware class.
+Add an Accept Header for xml (application/xml) to get the results back in xml.
 
 Some notes on the architecture.
 A lot of projects use a controller with a respository that is dependancy injected.
