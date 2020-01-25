@@ -39,6 +39,7 @@ These can be run from Visual Studio.
 The Front End
 -------------
 
-You have to use node to run the front end. (npm start).
-There are some unit tests as well, to test these you can run the following command: npm test
+You have to use node to run the front end. 'npm start'.
+Before you start the project, you will have to do an 'npm install' to install the packages.
+There are some unit tests as well, to test these you can run the following command: 'npm test'
 As mentioned above, if you have not run the API under SSL, you will need to change the baseurl (found in src/common.js) to http://localhost:61575/api/
