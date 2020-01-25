@@ -32,6 +32,8 @@ This means the controller is decoupled from the engine (business logic), and you
 The drawback to doing this architecture, is there is a lot more setup and files with base classes. It may not be necessary in a small project like this, but it's an idea that has worked for
 me on a couple of larger projects.
 
+The project also users AutoMapper (via a NuGet package). AutoMapper is an object to object mapper, and is a great tool to syncronize your Dtos to your DB Models.
+
 The Unit Tests
 --------------
 
