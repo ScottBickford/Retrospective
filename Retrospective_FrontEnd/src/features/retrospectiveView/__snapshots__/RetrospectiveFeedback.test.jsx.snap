@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RetrospectiveFeedback snapshot renders 1`] = `
+<div
+  style={
+    Object {
+      "paddingTop": 20,
+    }
+  }
+>
+  <hr />
+  <h4>
+    Feedback:
+  </h4>
+  <hr />
+  <div
+    style={
+      Object {
+        "backgroundColor": "rgb(240,240,240)",
+        "display": "inline-block",
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "float": "left",
+          "width": "150px",
+        }
+      }
+    >
+      <div>
+        <u>
+          Name:
+        </u>
+      </div>
+      Person 1
+    </div>
+    <div
+      style={
+        Object {
+          "float": "left",
+          "width": "300px",
+        }
+      }
+    >
+      <div>
+        <u>
+          Body:
+        </u>
+      </div>
+      Test Body
+    </div>
+    <div
+      style={
+        Object {
+          "float": "left",
+          "width": "150px",
+        }
+      }
+    >
+      <div>
+        <u>
+          Type:
+        </u>
+      </div>
+      Positive
+    </div>
+  </div>
+  <hr />
+  <h4>
+    Add feeback
+  </h4>
+  <form
+    onSubmit={[Function]}
+  >
+    <div>
+      <div>
+        Name of person:
+      </div>
+      <input
+        maxLength="200"
+        onChange={[Function]}
+        style={
+          Object {
+            "width": 200,
+          }
+        }
+        type="text"
+        value=""
+      />
+    </div>
+    <div>
+      <div>
+        Body:
+      </div>
+      <input
+        maxLength="1000"
+        onChange={[Function]}
+        style={
+          Object {
+            "width": 200,
+          }
+        }
+        type="text"
+        value=""
+      />
+    </div>
+    <div>
+      <div>
+        Feedback type:
+      </div>
+      <select
+        maxLength="1000"
+        onChange={[Function]}
+        style={
+          Object {
+            "width": 200,
+          }
+        }
+        type="text"
+        value=""
+      >
+        <option
+          value=""
+        >
+          
+        </option>
+        <option
+          value="Positive"
+        >
+          Positive
+        </option>
+        <option
+          value="Negative"
+        >
+          Negative
+        </option>
+        <option
+          value="Idea"
+        >
+          Idea
+        </option>
+        <option
+          value="Praise"
+        >
+          Praise
+        </option>
+      </select>
+    </div>
+    <button
+      disabled={true}
+      style={
+        Object {
+          "marginTop": 10,
+        }
+      }
+    >
+      Submit
+    </button>
+  </form>
+</div>
+`;

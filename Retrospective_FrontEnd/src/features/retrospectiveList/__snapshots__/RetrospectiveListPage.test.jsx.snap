@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RetrospectiveListPage snapshot renders 1`] = `
+Array [
+  <h2>
+    Retrospectives
+  </h2>,
+  <div
+    style={
+      Object {
+        "paddingBottom": 10,
+      }
+    }
+  >
+    Filter:
+     
+    <div
+      className="react-datepicker-wrapper"
+    >
+      <div
+        className="react-datepicker__input-container"
+      >
+        <input
+          className=""
+          disabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          readOnly={false}
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>,
+  <div>
+    There are no items
+  </div>,
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "marginTop": 10,
+      }
+    }
+  >
+    Add Retrospective
+  </button>,
+]
+`;

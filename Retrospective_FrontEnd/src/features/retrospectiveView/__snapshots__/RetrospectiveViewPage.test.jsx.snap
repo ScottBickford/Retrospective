@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RetrospectiveViewPage snapshot renders 1`] = `
+<h2>
+  View Retrospective
+</h2>
+`;

@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RetrospectiveAddPage snapshot renders 1`] = `
+Array [
+  <h2>
+    Add Retrospective
+  </h2>,
+  <form
+    onSubmit={[Function]}
+  >
+    <div>
+      <div>
+        Name:
+      </div>
+      <input
+        maxLength="200"
+        onChange={[Function]}
+        style={
+          Object {
+            "width": 200,
+          }
+        }
+        type="text"
+        value=""
+      />
+    </div>
+    <div>
+      <div>
+        Summary:
+      </div>
+      <textarea
+        maxLength="1000"
+        onChange={[Function]}
+        rows={4}
+        style={
+          Object {
+            "width": 200,
+          }
+        }
+        value=""
+      />
+    </div>
+    <div>
+      <div>
+        Date:
+      </div>
+      <div
+        className="react-datepicker-wrapper"
+      >
+        <div
+          className="react-datepicker__input-container"
+        >
+          <input
+            className=""
+            disabled={false}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            readOnly={false}
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+    <div>
+      <div>
+        Participants:
+      </div>
+      <div>
+        <input
+          maxLength="200"
+          onChange={[Function]}
+          style={
+            Object {
+              "width": 200,
+            }
+          }
+          type="text"
+          value=""
+        />
+        <a
+          href="/"
+          onClick={[Function]}
+          style={
+            Object {
+              "marginTop": 10,
+            }
+          }
+        >
+          Remove
+        </a>
+      </div>
+      <div>
+        <a
+          href="/"
+          onClick={[Function]}
+          style={
+            Object {
+              "marginTop": 10,
+            }
+          }
+        >
+          Add Participant
+        </a>
+      </div>
+    </div>
+    <hr />
+    <div
+      style={
+        Object {
+          "paddingTop": 10,
+        }
+      }
+    >
+      <button
+        disabled={true}
+      >
+        Submit
+      </button>
+      <a
+        href="/"
+      >
+        Cancel
+      </a>
+    </div>
+  </form>,
+]
+`;

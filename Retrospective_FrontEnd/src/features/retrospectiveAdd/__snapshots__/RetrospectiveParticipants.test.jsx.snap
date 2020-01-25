@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RetrospectiveParticipants snapshot renders 1`] = `
+<div>
+  <div>
+    Participants:
+  </div>
+  <div>
+    <input
+      maxLength="200"
+      onChange={[Function]}
+      style={
+        Object {
+          "width": 200,
+        }
+      }
+      type="text"
+      value="Person 1"
+    />
+    <a
+      href="/"
+      onClick={[Function]}
+      style={
+        Object {
+          "marginTop": 10,
+        }
+      }
+    >
+      Remove
+    </a>
+  </div>
+  <div>
+    <a
+      href="/"
+      style={
+        Object {
+          "marginTop": 10,
+        }
+      }
+    >
+      Add Participant
+    </a>
+  </div>
+</div>
+`;

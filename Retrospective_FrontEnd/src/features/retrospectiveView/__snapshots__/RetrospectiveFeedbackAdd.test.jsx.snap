@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RetrospectiveFeedbackAdd snapshot renders 1`] = `
+Array [
+  <h4>
+    Add feeback
+  </h4>,
+  <form
+    onSubmit={[Function]}
+  >
+    <div>
+      <div>
+        Name of person:
+      </div>
+      <input
+        maxLength="200"
+        onChange={[Function]}
+        style={
+          Object {
+            "width": 200,
+          }
+        }
+        type="text"
+        value=""
+      />
+    </div>
+    <div>
+      <div>
+        Body:
+      </div>
+      <input
+        maxLength="1000"
+        onChange={[Function]}
+        style={
+          Object {
+            "width": 200,
+          }
+        }
+        type="text"
+        value=""
+      />
+    </div>
+    <div>
+      <div>
+        Feedback type:
+      </div>
+      <select
+        maxLength="1000"
+        onChange={[Function]}
+        style={
+          Object {
+            "width": 200,
+          }
+        }
+        type="text"
+        value=""
+      >
+        <option
+          value=""
+        >
+          
+        </option>
+        <option
+          value="Positive"
+        >
+          Positive
+        </option>
+        <option
+          value="Negative"
+        >
+          Negative
+        </option>
+        <option
+          value="Idea"
+        >
+          Idea
+        </option>
+        <option
+          value="Praise"
+        >
+          Praise
+        </option>
+      </select>
+    </div>
+    <button
+      disabled={true}
+      style={
+        Object {
+          "marginTop": 10,
+        }
+      }
+    >
+      Submit
+    </button>
+  </form>,
+]
+`;
